@@ -1,0 +1,14 @@
+appMain\Handler\Test_Handler.class
+appMain\jpa\repository\CityInterface.class
+appMain\config\Myconfig.class
+appMain\Appmain.class
+appMain\config\Swagger.class
+appMain\jpa\entity\City.class
+appMain\jpa\service\CityService.class
+appMain\myclass\Myclass.class
+appMain\accapt\Api_Accapt.class
+appMain\config\Mylogger.class
+appMain\service\CCscthema.class
+appMain\service\Myutil.class
+appMain\controller\MyController.class
+appMain\service\Myservice.class
