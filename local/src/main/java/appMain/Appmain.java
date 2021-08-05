@@ -11,13 +11,13 @@ import org.springframework.core.env.ConfigurableEnvironment;
 public class Appmain {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext application = SpringApplication.run(Appmain.class, args);
-		ConfigurableEnvironment environment = application.getEnvironment();
-		int exeMs = environment.getProperty("my.ioc.getint", int.class, 1000);
-		String sdddd = environment.getProperty("my.ioc.getstring", String.class, "isdefalre");
-		boolean cc = environment.getProperty("my.ioc.config", boolean.class, true);
-		System.out.println(exeMs);
-		System.out.println(sdddd);
-		System.out.println(cc);
+//		ConfigurableEnvironment environment = application.getEnvironment();
+//		int exeMs = environment.getProperty("my.ioc.getint", int.class, 1000);
+//		String sdddd = environment.getProperty("my.ioc.getstring", String.class, "isdefalre");
+//		boolean cc = environment.getProperty("my.ioc.config", boolean.class, true);
+//		System.out.println(exeMs);
+//		System.out.println(sdddd);
+//		System.out.println(cc);
 //		playmymethod();
 
 	}

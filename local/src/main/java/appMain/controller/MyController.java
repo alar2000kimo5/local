@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import appMain.jpa.service.CityService;
 import appMain.service.Myservice;
+import appMain.service.myInterface;
 
 @RestController
 @RequestMapping(value = "/my")
@@ -40,12 +41,9 @@ public class MyController {
 	@Autowired
 	private CityService cityService;
 
-	@Autowired
-	private myInterface ifs;
-
 	@GetMapping(value = "/sss")
 	public String sss() {
-		ifs.init();
+		//interfac.init();
 		return "success";
 	}
 

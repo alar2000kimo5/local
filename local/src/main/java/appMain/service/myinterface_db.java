@@ -1,7 +1,10 @@
-package appMain.controller;
+package appMain.service;
 
-//@PropertySource("classpath:application.properties")
-//@Component
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.stereotype.Component;
+
+@ConditionalOnProperty(value = "my.ioc.es" ,havingValue = "es")
+@Component
 public class myinterface_db implements myInterface {
 
 	public myinterface_db() {
