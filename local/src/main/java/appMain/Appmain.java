@@ -10,6 +10,7 @@ import org.springframework.core.env.ConfigurableEnvironment;
 @SpringBootApplication
 public class Appmain {
 	public static void main(String[] args) {
+		// test commit
 		ConfigurableApplicationContext application = SpringApplication.run(Appmain.class, args);
 //		ConfigurableEnvironment environment = application.getEnvironment();
 //		int exeMs = environment.getProperty("my.ioc.getint", int.class, 1000);
